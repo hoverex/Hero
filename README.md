@@ -2,4 +2,5 @@
 </video>
 
 
-[![Видео с YouTube](https://img.youtube.com/vi/abcd1234/0.jpg)](https://https://www.youtube.com/watch?v=VHtXxWdnhpQ)
+
+[![Gameplay](https://img.youtube.com/vi/VHtXxWdnhpQ/0.jpg)](https://https://www.youtube.com/watch?v=VHtXxWdnhpQ)
