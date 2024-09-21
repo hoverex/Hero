@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed31ba0990c14d3e9963faf5365161c2, type: 3}
+  m_Name: SelectedHeroHandler
+  m_EditorClassIdentifier: 
+  _heroControllers:
+  - {fileID: -5422867532528525063, guid: 9751d0696c1ee4d8a957f177f49f1806, type: 3}
+  - {fileID: 480356868507031783, guid: 26ecc77eed7a54df8a9c3453d4d62f07, type: 3}
+  - {fileID: -2014304779897203637, guid: d859f975a6a3746d6aa0aafe83f64571, type: 3}
+  - {fileID: 8447444408760005369, guid: 469ef807cfc8b4be384de4ff98763283, type: 3}
+  - {fileID: 138457332313326959, guid: 0fe16fa9072104e1eac386a82699ffa2, type: 3}
+  - {fileID: 4979759861663620139, guid: bdb84a4ee09cb4da7b1f1e14e57107a5, type: 3}
