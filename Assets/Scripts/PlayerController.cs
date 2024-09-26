@@ -3,6 +3,7 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    private static readonly int IsWalking = Animator.StringToHash("isWalking");
     private NavMeshAgent _navMesh;
     private Animator _animator;
 
@@ -19,14 +20,11 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit hit))
             {
                 _navMesh.destination = hit.point;
-                _animator.SetBool("isWalking", true); // Устанавливаем булевый параметр
+               
             }
         }
-
-        // Проверка, достиг ли персонаж целевой точки
-        if (_navMesh.remainingDistance <= _navMesh.stoppingDistance)
-        {
-            _animator.SetBool("isWalking", false); // Отключаем ходьбу
-        }
+        var isWalking = _navMesh.enabled && _navMesh.velocity.sqrMagnitude > 0;
+        _animator.SetBool(IsWalking, isWalking);
+        
     }
 }
